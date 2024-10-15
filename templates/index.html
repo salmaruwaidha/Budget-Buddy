@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to BudgetBuddy</h1>
+    <h2>Net Balance: ${{ net_balance }}</h2>
+    <div class="mt-4">
+        <a href="/add_income" class="btn btn-success mx-2">Add Income</a>
+        <a href="/add_expense" class="btn btn-danger mx-2">Add Expense</a>
+        <a href="/view_expenses" class="btn btn-primary mx-2">View Incomes & Expenses</a>
+    </div>
+</div>
+{% endblock %}
